@@ -17,7 +17,7 @@ function jsonTodo(_, res) {
 }
 
 function jsonTodos(_, res) {
-	res.json(res.local.data.todos);
+	res.json(res.locals.data.todos);
 }
 
 // create
